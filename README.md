@@ -45,9 +45,7 @@ These are source codes for setting up user study server AND analyze collected re
 
 5. Visit `localhost:3001` on your website, you should see the instruction page.
 
-   If you are running on the uchicago linux machine, visit `linux.cs.uchicago.edu:3001`
-
-   (Optional) If you want to change the port number, in the `app.js` file, edit line 48 to the desired port number.
+   If you are running on the uchicago farewell cluster, visit `farewell.cs.uchicago.edu:3001`
 
    After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
 
