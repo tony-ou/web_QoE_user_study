@@ -24,7 +24,7 @@ These are source codes for setting up user study server AND analyze collected re
 2. Download the zip file and unzip  it. Locate to the folder:
 
    ```shell
-   cd QoEProject
+   cd web_QoE_user_study
    ```
 
 3. (Optional) Install all the dependencies:
@@ -38,7 +38,7 @@ These are source codes for setting up user study server AND analyze collected re
 4. Start the server on localhost:
 
    ```shell
-   node app.js
+   node app.js [Optionally specify which port to run server; defaults to 3001 if not specified]
    ```
 
    If you run into any errors regarding modules not found, try removing the "node_modules" folder and go back to step 3.
