@@ -5,7 +5,7 @@
 
 These are source codes for setting up user study server AND analyze collected results .
 
-## Setup
+## Setup Server
 
 1. Install `node.js` from its [official website](https://nodejs.org/en/download/)
 
@@ -50,23 +50,6 @@ These are source codes for setting up user study server AND analyze collected re
    (Optional) If you want to change the port number, in the `app.js` file, edit line 48 to the desired port number.
 
    After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
-
-## Running MTurk Survey
-
-1. Login to [Amazon Requester](https://requester.mturk.com/begin_signin) using your Amazon account.
-
-2. Create a new project using their "Survey Link" template.
-
-3. Fill out the survey properties. Here is an example of my settings:
-   ![MTurk Settings](https://github.com/sheric98/QoEProject/blob/master/static/MTurk_Settings.png)
-
-4. Click on Design Layout. Click on "Source" in the editor to edit the text.
-   Here is an exmaple of my layout:
-   ![Design Layout](https://github.com/sheric98/QoEProject/blob/master/static/Design_Layout.png)
-
-   Remember to change the link correspondingly if you changed the port number.
-
-5. Finish and publish a batch.
 
 
 ## About data
