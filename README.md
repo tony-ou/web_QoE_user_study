@@ -3,7 +3,7 @@
 
 ## Description
 
-These are source codes for 1video experiment.
+These are source codes for setting up user study server AND analyze collected results .
 
 ## Setup
 
