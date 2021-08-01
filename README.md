@@ -3,7 +3,7 @@
 
 ## Description
 
-These are source codes for 1video experiment.
+These are source codes for setting up user study server AND analyze collected results .
 
 ## Setup
 
@@ -24,7 +24,7 @@ These are source codes for 1video experiment.
 2. Download the zip file and unzip  it. Locate to the folder:
 
    ```shell
-   cd QoEProject
+   cd web_QoE_user_study
    ```
 
 3. (Optional) Install all the dependencies:
@@ -38,44 +38,33 @@ These are source codes for 1video experiment.
 4. Start the server on localhost:
 
    ```shell
-   node app.js
+   node app.js [Optionally specify which port to run server; defaults to 3001 if not specified]
    ```
 
    If you run into any errors regarding modules not found, try removing the "node_modules" folder and go back to step 3.
 
 5. Visit `localhost:3001` on your website, you should see the instruction page.
 
-   If you are running on the uchicago linux machine, visit `linux.cs.uchicago.edu:3001`
-
-   (Optional) If you want to change the port number, in the `app.js` file, edit line 48 to the desired port number.
+   If you are running on the uchicago farewell cluster, visit `farewell.cs.uchicago.edu:3001`
 
    After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
 
-## Running MTurk Survey
+## Prepare for mturk campaign
 
-1. Login to [Amazon Requester](https://requester.mturk.com/begin_signin) using your Amazon account.
+1. First create test videos. (Check [this](https://github.com/tony-ou/web_QoE_video_creation/) repo). 
 
-2. Create a new project using their "Survey Link" template.
+2. We need to host videos online for users to watch them. A simple solution is to put it under `./campaign/{video folder name}` and so the final video_url will be like ` "https://raw.githubusercontent.com/tony-ou/web_QoE_user_study/main/campaign/" + vid_folder + "/1.mp4"`. 
 
-3. Fill out the survey properties. Here is an example of my settings:
-   ![MTurk Settings](https://github.com/sheric98/QoEProject/blob/master/static/MTurk_Settings.png)
-
-4. Click on Design Layout. Click on "Source" in the editor to edit the text.
-   Here is an exmaple of my layout:
-   ![Design Layout](https://github.com/sheric98/QoEProject/blob/master/static/Design_Layout.png)
-
-   Remember to change the link correspondingly if you changed the port number.
-
-5. Finish and publish a batch.
+3. Update `vid_folder` variable and `video_order` variable in `start.js`. Video order is usually randomized for each user so we don't get biased results. Sometime, you may want to specify a video's location if that is a reference video. (e.g. a video with fastest page load such that user must give it highest rating, otherwise we reject the user. In this case we can fix it to the last position.)
 
 
 ## About data
 
 1. The raw data collected from the website are .txt files under `./results`, containing info about grades, order of videos, watching and decision time of each grade, and the content of the survey, etc (check `./controllers/start.js` `post_end` function to see what fields are written). 
 
-2. Scripts `./scripts` help you filter, plot, analyze results. Be to sure run these scripts from inside `./scripts` folder, otherwise some paths would be incorrect. First, you should filter out bad results using `./scripts/filter_results.py`. (You can also manually filter results. Run `./scripts/create_csv.py` to put all results into a csv and open it with excel.) Second, you plot MOS + error bar, and obtain a summary log file with `./scripts/get_results.sh`. If results appear weird, you can either revisit filtering step (like increasing filtering threshold) or analyze the results further via `./scripts/Digging.ipynb`. 
+2. Scripts `./scripts` help you filter, plot, analyze results. Be to sure run these scripts from inside `./scripts` folder, otherwise some paths would be incorrect. First, you should filter out bad results using `./scripts/filter_results.py`. (You can also manually filter results. Run `./scripts/create_csv.py` to put all results into a csv and open it with excel.) Bad results will be moved to `./rejected_results`. Second, you plot MOS + error bar, and obtain a summary log file with `./scripts/get_results.sh`. If results appear weird, you can either revisit filtering step (like increasing filtering threshold) or analyze the results further via `./scripts/Digging.ipynb`. 
 
-3. After you are done with analyzing results, you MUST arhive results with `scripts/move_results_out.sh` because next campaign's results is also stored in `./results`. You will mix them up if you don't archive this campign first. To revisit previous campaigns, run `./scripts/move_results_in.sh`.
+3. After you are done with analyzing results, you **MUST** archive results with `scripts/move_results_out.sh` because next campaign's results is also stored in `./results`. You will mix them up if you don't archive this campaign first. To revisit previous campaigns, run `./scripts/move_results_in.sh`. The results are archived to `./old_results`
 
 
 
