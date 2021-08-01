@@ -1,0 +1,21 @@
+3,2,2,4,4
+1,2,4,3,5
+31671,19479,17532,21186,17782
+24.043,16.645,14.747,18.162,15.46
+13488,7528,4390,5335,5540
+9.636,4.708,2.135,2.623,3.396
+A9KSSJXDB6GPE
+N/A
+undefined
+undefined
+Instructions are clear. Main content of the page need to load fast. That's my first factor to decide. 
+Chrome
+16.912
+0
+2,1,1,1,1
+2,1,1,1,1
+1,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+0

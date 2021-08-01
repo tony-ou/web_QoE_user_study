@@ -1,0 +1,22 @@
+3,2,5
+3,4,5
+29899,32217,12046
+28.629,28.341,10.782
+11551,3478,5364
+10.277,2.402,4.163
+A2YHSU2IJZ9J14
+Desktop
+undefined
+undefined
+Ratings given were largely based on how fast the images load and how long it actually took for the entire page to finish loading. As for the guideline, 1 or 2 video examples to show what constitutes a bad or excellent rating would be helpful.
+Chrome
+15.019
+0
+2,2,1
+2,2,1
+1,1,0
+0,0,0
+0,0,-1
+
+1
+1625557311842

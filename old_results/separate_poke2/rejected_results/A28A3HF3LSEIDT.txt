@@ -1,0 +1,22 @@
+5,5,5
+4,3,5
+21705,16454,21787
+19.987,10.391,11.02
+3680,3342,3205
+1.957,1.824,1.694
+A28A3HF3LSEIDT
+Laptop
+undefined
+undefined
+Become Anonymous By Using Proxy Websites
+Chrome
+8.441
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625550874981

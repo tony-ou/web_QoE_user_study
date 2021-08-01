@@ -1,0 +1,22 @@
+2,2,5
+3,4,5
+19342,20401,13023
+17.913,17.799,11.424
+6719,7816,4001
+5.304,5.506,2.78
+A2J237J8KM3OCS
+Laptop
+undefined
+undefined
+No issues with experiment guidelines....all clear to me
+Chrome
+8.398
+0
+1,1,1
+1,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625551202952

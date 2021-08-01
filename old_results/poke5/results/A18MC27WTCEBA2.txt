@@ -1,0 +1,22 @@
+1,2,1,1,5
+3,4,1,2,5
+20480,18093,20609,20235,19727
+18.503,15.452,18.563,18.319,17.823
+3765,4655,11021,3810,3931
+1.806,3.086,9.11,2.08,2.305
+A18MC27WTCEBA2
+Desktop
+undefined
+undefined
+No one likes slow loading images in a page. The images should be of least acceptable resolution so it won't lag to load in lower speed connections. Before the grading process, it would have been helpful at least with a gif image on different types of loading pages to get an idea of what is to come
+Chrome
+36.947
+0
+1,1,1,1,1
+1,1,1,1,0
+0,0,0,0,0
+0,0,0,0,0
+-1,0,0,0,0
+,,,,
+1
+1625232680514

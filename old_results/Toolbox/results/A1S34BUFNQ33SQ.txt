@@ -1,0 +1,21 @@
+4,3,2,2,2
+1,2,4,3,5
+20029,20162,17432,19311,18838
+17.888,17.891,15.194,17.028,13.649
+18267,10902,8159,10450,5968
+15.685,8.739,5.707,8.039,3.637
+A1S34BUFNQ33SQ
+N/A
+undefined
+undefined
+The webpage is very slow for some  of the video clips, each image is loading one after one which is not correct for the website. Guideline is very clear
+Chrome
+6.323
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+0

@@ -1,0 +1,22 @@
+1,1,5
+3,4,5
+14784,14465,10085
+14.515,14.183,9.81
+6983,2972,2495
+6.67,2.46,2.092
+A2R0YYUAWNT7UD
+Laptop
+undefined
+undefined
+Well, the first two just took way too long. The 3rd one had eveything loaded instantly.
+Chrome
+15.506
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625603899723

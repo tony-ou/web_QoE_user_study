@@ -1,0 +1,21 @@
+4,2,2,4,3
+1,2,3,5,4
+44228,19087,17979,16017,17294
+42.551,17.411,16.322,14.346,15.638
+10279,8408,15345,4127,6832
+8.618,6.748,13.623,2.449,4.685
+A2UTHXLZL8TNBK
+N/A
+undefined
+undefined
+the webpage logo and other tabs can be loaded first and then the content would be better
+Chrome
+24.992
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,-1,0,0
+,,,,
+0

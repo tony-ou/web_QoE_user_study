@@ -1,0 +1,21 @@
+5,4,3,4,4
+1,4,3,5,2
+14584,14051,15043,14541,14663
+10.49,13.72,14.681,14.226,14.336
+6570,1853,1919,3132,1828
+6.265,1.517,1.564,2.749,1.468
+A26UAJWMMNN351
+N/A
+undefined
+undefined
+How fast it loads. If it loads slower I give it a lower rating. The guideline was clear. No confusion about grading process
+Chrome
+6.438
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,-1,0,0
+,,,,
+1

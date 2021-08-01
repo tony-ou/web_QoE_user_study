@@ -1,0 +1,22 @@
+1,2,5
+4,3,5
+15078,45042,10839
+14.783,38.153000000000006,10.532
+2519,17914,2818
+2.257,17.344,2.54
+A341XKSRZ58FJK
+Desktop
+undefined
+undefined
+The first two felt like it was hooked up to an old DSL line; parts would load, then other parts would load. The second one looked especially bad, having the second set of content load in between the staggered ones looked more like a bad connection. The third one looked how I expected it to.
+Chrome
+10.699
+0
+1,3,1
+1,3,1
+0,0,0
+0,0,0
+0,1,-1
+
+1
+1625555279591

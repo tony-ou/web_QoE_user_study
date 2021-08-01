@@ -1,0 +1,21 @@
+5,3,3,4,2
+1,5,4,2,3
+64311,21279,18425,20476,22987
+48.064,19.37,16.107,15.797,20.781
+11448,4050,3924,7743,6686
+9.33,2.233,1.973,4.198,4.64
+A3VOMP0WOJTB4I
+N/A
+undefined
+undefined
+Due to quality damage I lose interest in watching video during a turning point. The experiment guidelines were clear.
+Chrome
+9.118
+0
+1,1,1,1,1
+1,0,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+0

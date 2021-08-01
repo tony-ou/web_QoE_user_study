@@ -1,0 +1,22 @@
+4,5,4
+3,4,5
+17408,18996,13115
+15.548,17.183,11.375
+3963,3202,4551
+2.321,1.573,2.256
+A3TUMZ954ORSUC
+Laptop
+undefined
+undefined
+Connection Speed. The type of internet connection you have will directly affect the speed at which any website loads
+Chrome
+13.461
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625550789866

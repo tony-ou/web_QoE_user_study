@@ -1,0 +1,21 @@
+5,2,1,1,1
+1,3,2,4,5
+14965,16275,23604,17940,16091
+12.411,13.2,16.773,16.166,13.269
+8254,5244,5059,5868,3389
+3.934,2.941,2.87,2.023,1.553
+A2QD9PJUKW7PKK
+N/A
+undefined
+undefined
+speed of page reload is not upto mark so that's why on many times i had strongly disagree.
+Chrome
+4.859
+0
+1,1,1,1,1
+1,1,0,1,0
+0,0,0,0,0
+0,0,0,0,0
+0,-1,0,0,0
+,,,,
+0

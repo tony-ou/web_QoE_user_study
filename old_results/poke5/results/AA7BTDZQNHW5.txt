@@ -1,0 +1,22 @@
+3,3,4,4,5
+2,1,3,4,5
+19273,21054,18892,34990,15738
+16.458,18.485,16.072,32.744,13.338
+10159,14304,4384,4213,4292
+7.217,11.459,1.922,2.18,2.331
+AA7BTDZQNHW5
+Laptop
+undefined
+undefined
+Ratings were based on loading speed of first line and third line.  Third line loading speeds are better than first line loading speed.  Experiment guideline is clear and grading process is not confused.
+Chrome
+27.226
+0
+1,1,1,2,1
+1,1,1,2,1
+0,0,0,1,0
+0,0,0,0,0
+0,0,-1,0,0
+,,,,
+1
+1625189906588

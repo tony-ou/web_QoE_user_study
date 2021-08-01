@@ -1,0 +1,21 @@
+4,2,2,2,4
+1,4,5,3,2
+25897,19428,18295,22097,18871
+25.339,19.099,17.979,21.807,18.537
+10451,7372,3857,6226,10739
+10.148,7.094,3.478,5.933,5.558
+AVOF14300525D
+N/A
+undefined
+undefined
+The guideline was clear. The factor that mattered to me was how quickly the different parts loaded. Some of the parts took awhile to load, so I gave them a lower rating. 
+Chrome
+28.477
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,0,-1
+,,,,
+0

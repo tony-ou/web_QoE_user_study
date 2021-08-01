@@ -1,0 +1,21 @@
+2,2,2,2,1
+1,2,4,3,5
+28801,16033,16139,18294,16192
+25.217,14.076,14.409,16.329,14.414
+19624,4618,3347,3298,3472
+15.707,2.612,1.86,1.862,1.678
+A1NF6PELRKACS9
+N/A
+undefined
+undefined
+If each page takes that much time to load, it adds to the restlessness. I would prefer the most important or relevant parts to be loaded first so I don't feel like I am wasting time.
+Chrome
+53.917
+0
+2,1,1,1,1
+2,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+1,0,0,-1,0
+,,,,
+0

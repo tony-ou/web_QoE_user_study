@@ -1,0 +1,22 @@
+3,3,5
+3,4,5
+19019,18716,16119
+17.35,16.74,11.742
+3623,3981,3762
+2.197,2.271,2.104
+A1IU5OP7BBZHZ7
+Desktop
+undefined
+undefined
+pages opening part by part is like waiting more time
+Chrome
+6.3
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625553597864

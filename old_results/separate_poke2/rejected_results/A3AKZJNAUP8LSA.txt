@@ -1,0 +1,22 @@
+1,1,5
+4,3,5
+2799,4772,7836
+1.444,2.899,5.561
+3121,4457,2902
+1.756,2.83,1.575
+A3AKZJNAUP8LSA
+Desktop
+undefined
+undefined
+server of the websites and internet speed of users should be good for web page loading quality
+Chrome
+3.959
+0
+0,0,1
+0,0,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625550727584

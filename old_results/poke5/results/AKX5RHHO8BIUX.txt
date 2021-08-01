@@ -1,0 +1,22 @@
+1,1,2,2,5
+3,4,1,2,5
+13670,13751,17684,15461,10827
+13.28,13.395,13.992,15.055,10.457
+1610,1899,6419,3611,2757
+1.274,1.567,6.066,3.248,2.372
+AKX5RHHO8BIUX
+Desktop
+undefined
+undefined
+I want everything to load more or less at once. I find it really annoying when there are blank spaces or elements that load out of sequence. 
+Chrome
+21.299
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+-1,0,0,0,0
+,,,,
+1
+1625189711242

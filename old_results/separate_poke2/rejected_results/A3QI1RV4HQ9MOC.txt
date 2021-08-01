@@ -1,0 +1,22 @@
+5,4,3
+4,3,5
+50787,15792,12293
+48.519,13.946,10.416
+3864,4139,5316
+2.072,2.468,3.625
+A3QI1RV4HQ9MOC
+Laptop
+undefined
+undefined
+The first reason web performance matters is because it is about keeping people on your website.
+Chrome
+13.679
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625551001159

@@ -1,0 +1,22 @@
+4,3,5
+3,4,5
+18585,18069,13806
+16.604,16.061,12.054
+3829,3809,8126
+2.066,1.991,6.134
+ASWZO1WY1UHEP
+Desktop
+undefined
+undefined
+Guidelines was very clear. Three videos loading speed was different. So all videos get different ratings, like strongly agree, agree and neutral. There was no confused about grading process.
+Chrome
+8.191
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625604456703

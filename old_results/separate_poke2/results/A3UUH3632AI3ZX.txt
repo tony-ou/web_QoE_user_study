@@ -1,0 +1,22 @@
+3,3,5
+3,4,5
+13588,13107,8913
+13.114,12.542,8.451
+2017,1487,1555
+1.603,1.087,1.17
+A3UUH3632AI3ZX
+Desktop
+undefined
+undefined
+how long it took for everything to load
+Chrome
+5.094
+0
+1,1,1
+1,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625604432140

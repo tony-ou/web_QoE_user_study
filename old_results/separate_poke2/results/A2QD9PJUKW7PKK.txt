@@ -1,0 +1,22 @@
+1,1,5
+4,3,5
+15620,13347,8567
+12.75,11.941,7.125
+2767,2496,3964
+1.543,1.299,2.771
+A2QD9PJUKW7PKK
+Desktop
+undefined
+undefined
+experiment guideline was clear and i had rated based on the website page load
+Chrome
+6.997
+0
+1,1,1
+1,0,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625550457491

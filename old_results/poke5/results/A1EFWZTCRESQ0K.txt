@@ -1,0 +1,22 @@
+2,1,2,2,5
+3,4,2,1,5
+14141,13846,20457,14945,11141
+13.85,13.496,20.123,14.615,10.751
+2504,3919,12431,2764,3194
+2.197,3.639,12.006,2.465,2.929
+A1EFWZTCRESQ0K
+Laptop
+undefined
+undefined
+Understanding when/if the page is fully loaded, some controls showing up much later than the initial load, overall speed and performance.  
+Chrome
+28.485
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,-1,0,0,0
+,,,,
+1
+1625236132240

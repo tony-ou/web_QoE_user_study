@@ -1,0 +1,22 @@
+4,4,4
+3,4,5
+17349,16044,13530
+15.5,14.138,8.014
+9659,5044,4826
+7.181,3.17,2.531
+A1XO6ONCCTBMKW
+Laptop
+undefined
+undefined
+Every page element — its HTML code, CSS that styles page elements, various JavaScript files, images, videos and other multimedia and so much more
+Chrome
+32.04
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625550500558

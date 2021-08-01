@@ -1,0 +1,21 @@
+5,3,3,3,3
+1,4,5,3,2
+38672,23251,19091,25176,18970
+21.281,21.211,17.098,18.228,16.937
+22165,5542,8914,7030,12104
+18.076,3.759,6.892,5.006,10.134
+ASWZO1WY1UHEP
+N/A
+undefined
+undefined
+I can't confuse attention checks and instruction was clear. I satisfied only one video speed. Others are neutral stage. Video quality was good.
+Chrome
+12.105
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+1,0,0,0,-1
+,,,,
+0

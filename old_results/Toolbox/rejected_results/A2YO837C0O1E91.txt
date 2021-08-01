@@ -1,0 +1,21 @@
+2,1,2,1,1
+1,5,3,2,4
+23329,14491,13520,12969,9674
+20.16,14.13,3.198,12.621,9.326
+9254,1747,2036,1554,1962
+8.551,1.423,1.68,1.222,1.637
+A2YO837C0O1E91
+N/A
+undefined
+undefined
+When it takes a long time for different sections to load, I will be less satisfied. I prefer the website to load all at once.
+Chrome
+23.735
+0
+2,1,1,2,1
+2,1,1,1,0
+0,0,0,1,0
+0,0,0,0,0
+1,0,-1,0,0
+,,,,
+1

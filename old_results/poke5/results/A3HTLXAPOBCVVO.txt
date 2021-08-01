@@ -1,0 +1,22 @@
+1,2,2,2,5
+1,2,4,3,5
+22116,23819,17623,17676,14631
+21.776,23.488,17.3,17.337,14.305
+7428,4948,3818,3401,6229
+7.096,4.656,3.54,3.12,5.861
+A3HTLXAPOBCVVO
+Laptop
+undefined
+undefined
+I expect the first page to fully load.  If items take a second to appear as I scroll down I am okay with that but the first page should fully load at once.
+Chrome
+30.414
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+1
+1625192640337

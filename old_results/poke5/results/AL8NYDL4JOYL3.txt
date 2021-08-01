@@ -1,0 +1,22 @@
+3,4,3,3,5
+2,1,4,3,5
+19302,35035,17119,19949,13691
+17.614,33.509,15.635,17.922,12.247
+11618,13470,6358,7743,4762
+10.081,10.843,4.825,6.239,3.167
+AL8NYDL4JOYL3
+Desktop
+undefined
+undefined
+In  videos the images took some time to load except the last video. That's why I gave different ranking.
+Chrome
+44.295
+0
+1,1,1,1,1
+1,1,1,1,0
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+1
+1625193280529

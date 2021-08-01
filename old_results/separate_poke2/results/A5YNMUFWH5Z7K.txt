@@ -1,0 +1,22 @@
+2,2,5
+3,4,5
+32869,23148,18630
+30.315,21.317,16.791
+37008,11137,10280
+34.853,9.069,7.994
+A5YNMUFWH5Z7K
+Laptop
+undefined
+undefined
+loading webpage is most importand. The guideline is clear.
+Chrome
+31.388
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625571634075

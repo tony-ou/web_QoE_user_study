@@ -1,0 +1,21 @@
+1,1,1,1,1
+1,3,5,2,4
+6372,3856,5867,2748,5746
+5.965,3.521,4.595,2.435,5.381
+10449,2346,2387,3219,2106
+9.093,2.045,2.042,2.859,1.746
+A1IZ4NX41GKU4X
+N/A
+undefined
+undefined
+The speed of loading and smoothness of it. I want something to load smooth and fast. No buffering at all. 
+Safari
+11.949
+0
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,0,-1
+,,,,
+1

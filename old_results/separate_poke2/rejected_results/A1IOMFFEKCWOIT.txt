@@ -1,0 +1,22 @@
+4,4,5
+3,4,5
+21961,16977,10258
+20.357,15.163,8.196
+8124,5219,4662
+6.246,3.64,3.077
+A1IOMFFEKCWOIT
+Laptop
+undefined
+undefined
+Usability. One of the most important aspects of web design is actually making the site usable for the average user.
+Chrome
+33.056
+0
+1,1,1
+0,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625550533920

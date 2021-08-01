@@ -1,0 +1,22 @@
+4,4,5
+3,4,5
+24596,19373,13454
+23.741,18.504,12.625
+6607,5710,4443
+5.712,4.886,3.569
+ABM77ZQWCHPNX
+Desktop
+undefined
+undefined
+The last video loaded quickly and all at once. The first two visits were fairly quick but did not load at once.
+Chrome
+27.116
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625598946171

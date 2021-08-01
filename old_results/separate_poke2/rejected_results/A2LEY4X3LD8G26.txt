@@ -1,0 +1,22 @@
+2,2,5
+3,4,5
+14218,13972,9362
+5.841,2.831,8.955
+5068,2017,1914
+4.745,1.674,1.524
+A2LEY4X3LD8G26
+Desktop
+undefined
+undefined
+Everything should load quickly and as much stuff should load at once.
+Chrome
+11.876
+0
+1,1,1
+1,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625603907639

@@ -1,0 +1,22 @@
+2,3,3
+4,3,5
+2541,3210,2288
+2.166,2.744,1.978
+2051,4490,1469
+1.715,4.156,1.089
+a2h4hydu6ffamq
+Desktop
+undefined
+undefined
+no buffering or a progress bar or something that tells me it's owrking
+Firefox
+27.871
+0
+0,1,0
+0,0,0
+0,0,0
+0,0,0
+0,0,-1
+
+0
+1625588407937

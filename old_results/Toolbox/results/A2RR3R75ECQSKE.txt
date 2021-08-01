@@ -1,0 +1,21 @@
+4,4,3,5,4
+1,5,2,4,3
+29901,16901,17580,13711,17773
+25.284,15.207,15.418,11.61,11.722
+12598,11319,3427,3740,4238
+10.184,9.321,1.781,1.725,2.332
+A2RR3R75ECQSKE
+N/A
+undefined
+undefined
+Experiment guideline is very clear and no more confused about grading process. Loading process is quick no issue about that. 
+Chrome
+20.972
+0
+2,1,1,1,1
+2,0,1,0,0
+1,0,0,0,0
+0,0,0,0,0
+0,-1,0,0,0
+,,,,
+0

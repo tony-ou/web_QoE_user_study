@@ -1,0 +1,21 @@
+4,2,2,2,2
+1,4,3,5,2
+30643,20890,21756,22876,21162
+29.268,19.25,19.572,21.504,19.575
+12042,6674,11143,14017,7768
+10.436,5.06,4.559,10.271,6.18
+A2EO6IBGQEOMLB
+N/A
+undefined
+undefined
+All images loading at very first itself and not loading one after one which makes the look of the webpage is very slow. Survey is simple and clear.
+Chrome
+6.227
+0
+2,1,1,1,1
+2,1,1,1,1
+1,0,0,0,0
+0,0,0,0,0
+0,0,-1,0,0
+,,,,
+0

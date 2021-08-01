@@ -1,0 +1,22 @@
+2,2,5
+3,4,5
+27546,18900,15017
+25.962,17.138,13.231
+22569,16341,6909
+20.703,7.944,5.167
+A3QS7M912JGKFD
+Laptop
+undefined
+undefined
+the experiment guideline is clear, First 2 video contents are loading slowly how ever 3rd video was loading immediatly.
+Chrome
+31.37
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625579944224

@@ -1,0 +1,22 @@
+5,5,4,4,5
+1,2,4,3,5
+34746,22619,19535,21958,16037
+21.777,19.852,16.534,19.438,11.727
+11320,7291,6274,6672,5526
+8.852,5.124,4.057,3.597,2.419
+A1AXD2Q0MREL8W
+Laptop
+undefined
+undefined
+The speed and information of loading the webpage matters most to me. The experiment guidelines were simple and easy to understand. No, i was not confused about grading process.
+Chrome
+50.026
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+1
+1625229551377

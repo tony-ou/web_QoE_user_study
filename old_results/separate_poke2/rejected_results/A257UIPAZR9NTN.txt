@@ -1,0 +1,22 @@
+4,1,5
+3,4,5
+12401,12239,7529
+12.183,12.024,7.306
+1780,1001,1386
+1.583,0.813,1.196
+A257UIPAZR9NTN
+Desktop
+undefined
+undefined
+speed with which the content loaded
+Chrome
+4.764
+0
+1,1,1
+1,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625605610225

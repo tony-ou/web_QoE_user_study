@@ -1,0 +1,21 @@
+4,1,1,2,2
+1,5,4,2,3
+10954,14622,14019,13922,17891
+4.1,14.08,13.536,13.416,17.384
+5500,1815,2233,4179,2088
+4.996,1.324,1.8,3.734,1.647
+A320QA9HJFUOZO
+N/A
+undefined
+undefined
+Overall loading speed is the only thing that really matters to me. I prefer if it all loads at once, rather than one piece at a time
+Chrome
+8.961
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+0

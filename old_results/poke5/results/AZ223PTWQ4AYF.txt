@@ -1,0 +1,22 @@
+2,2,2,2,5
+1,2,4,3,5
+15421,13045,11677,13227,10691
+14.395,12.347,10.963,12.564,10.103
+3929,3349,2794,2744,3196
+3.18,2.741,2.149,2.11,2.472
+AZ223PTWQ4AYF
+Laptop
+undefined
+undefined
+Whether everything loads at once--a majority of the page loading, then other images slowly trickling in, is annoying.
+Chrome
+21.592
+0
+1,1,1,1,1
+1,0,0,1,1
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,-1,0
+,,,,
+1
+1625229873637

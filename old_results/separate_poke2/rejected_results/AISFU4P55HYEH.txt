@@ -1,0 +1,22 @@
+3,3,4
+4,3,5
+23990,26860,20537
+19.709,19.138,18.742
+3236,13320,6619
+1.754,11.566,4.736
+AISFU4P55HYEH
+Laptop
+undefined
+undefined
+Third row of loading is most important.  Guidelines are clear and no confusion.
+Chrome
+80.881
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625551107808

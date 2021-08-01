@@ -1,0 +1,22 @@
+2,3,5
+4,3,5
+16373,18737,11365
+14.6,16.957,9.582
+4032,8210,4112
+2.512,6.391,2.541
+A26RPQDD0RQEHL
+Desktop
+undefined
+undefined
+The time taken to load the webpage is the reason for grading.
+Chrome
+12.333
+0
+1,1,1
+1,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625551763248

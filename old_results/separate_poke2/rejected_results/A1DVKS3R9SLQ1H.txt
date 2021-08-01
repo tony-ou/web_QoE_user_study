@@ -1,0 +1,22 @@
+5,4,4
+4,3,5
+13383,14028,11479
+11.54,11.116,9.965
+3295,3454,3783
+1.766,1.661,2.209
+A1DVKS3R9SLQ1H
+Desktop
+undefined
+undefined
+its good video quality and visual. its loads good
+Chrome
+12.592
+0
+1,1,1
+0,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625603894707

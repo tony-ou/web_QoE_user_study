@@ -1,0 +1,22 @@
+5,4,5
+4,3,5
+17309,17671,16351
+14.851,15.628,14.092
+4341,4060,3920
+1.98,2.002,1.845
+A3VOMP0WOJTB4I
+Laptop
+undefined
+undefined
+Due to quality damage I lose interest in watching video during a turning point. The experiment guidelines were clear.
+Chrome
+6.071
+0
+1,1,1
+1,1,0
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625569115978

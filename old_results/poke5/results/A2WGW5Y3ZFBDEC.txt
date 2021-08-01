@@ -1,0 +1,22 @@
+2,2,2,1,5
+3,4,1,2,5
+16242,16998,17057,17716,15955
+15.429,16.256,16.301,17.04,15.154
+4509,3708,9241,5275,4370
+3.678,2.806,8.344,4.418,3.612
+A2WGW5Y3ZFBDEC
+Laptop
+undefined
+undefined
+The guideline is not clear, because I wasn't given any examples about how to grade them. I graded pages that appeared immediately high, and pages where images didn't all show up in a couple of seconds low. Most of the images I saw were the latter, they took 5 seconds or more and images were still appearing, which I consider unacceptable.
+Chrome
+32.61
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+-1,0,0,0,0
+,,,,
+1
+1625184400127

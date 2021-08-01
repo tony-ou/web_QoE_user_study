@@ -1,0 +1,22 @@
+4,5,4,5,5
+3,4,1,2,5
+18570,16522,25103,18197,14763
+18.297,16.201,24.779,17.928,14.47
+6245,4310,11430,7494,5359
+5.935,4.028,11.066,7.206,5.078
+AVOF14300525D
+Laptop
+undefined
+undefined
+The guideline was clear. I graded based on how quickly it loaded, and most loaded very quickly. 
+Chrome
+40.482
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+-1,0,0,0,0
+,,,,
+1
+1625183891769

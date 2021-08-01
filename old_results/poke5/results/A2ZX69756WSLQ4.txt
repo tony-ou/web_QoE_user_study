@@ -1,0 +1,22 @@
+1,1,1,2,5
+4,3,1,2,5
+35418,40183,27901,49667,52516
+33.412,38.485,25.758,46.838,47.263
+12387,12266,14840,31943,17394
+9.808,9.959,12.847,29.941,15.108
+A2ZX69756WSLQ4
+Laptop
+undefined
+undefined
+All images of the webpage should load fast. The image links should appear as soon as possible when a webpage loads. A webpage should not take more than 3 seconds to load irrespective of the content of the page. And all the guidelines of the experiment are clear.
+Chrome
+81.805
+0
+2,2,1,2,2
+2,2,1,2,2
+1,1,0,1,1
+0,0,0,0,0
+-1,0,0,0,0
+,,,,
+1
+1625193461958

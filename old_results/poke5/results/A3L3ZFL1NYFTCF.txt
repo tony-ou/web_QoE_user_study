@@ -1,0 +1,22 @@
+2,4,2,2,5
+3,4,1,2,5
+16151,16069,49743,17974,12257
+13.585,13.763,44.59,13.924,10.204
+5949,4129,11317,5593,4047
+3.823,2.023,8.673,3.179,1.964
+A3L3ZFL1NYFTCF
+Desktop
+undefined
+undefined
+Nothing was confused, the guideline was clear to understand. The video should load smoothly, like the text shouldn't load one by one. It should not be buffered again and again.
+Chrome
+14.698
+0
+1,1,1,1,1
+1,1,1,1,1
+0,0,0,0,0
+0,0,0,0,0
+-1,0,0,0,0
+,,,,
+1
+1625201442147

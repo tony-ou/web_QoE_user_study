@@ -1,0 +1,22 @@
+1,2,5
+4,3,5
+14507,17628,10691
+14.223,16.125,10.413
+3429,8119,1858
+3.182,7.838,1.623
+A3L60SOWLYEDN2
+Desktop
+undefined
+undefined
+I like for everything to load at the same time, I hate when elements are popping in all over the page at random times
+Chrome
+22.1
+0
+1,1,1
+1,1,1
+0,0,0
+0,0,0
+0,0,-1
+
+1
+1625595569483
