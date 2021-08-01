@@ -5,7 +5,7 @@
 
 These are source codes for setting up user study server AND analyze collected results .
 
-## Setup Server
+## Setup
 
 1. Install `node.js` from its [official website](https://nodejs.org/en/download/)
 
@@ -48,6 +48,14 @@ These are source codes for setting up user study server AND analyze collected re
    If you are running on the uchicago farewell cluster, visit `farewell.cs.uchicago.edu:3001`
 
    After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
+
+## Prepare for mturk campaign
+
+1. First create test videos. (Check [this](https://github.com/tony-ou/web_QoE_video_creation/) repo). 
+
+2. We need to host videos online for users to watch them. A simple solution is to put it under `./campaign/{video folder name}` and so the final video_url will be like ` "https://raw.githubusercontent.com/tony-ou/web_QoE_user_study/main/campaign/" + vid_folder + "/1.mp4"`. 
+
+3. Update `vid_folder` variable and `video_order` variable in `start.js`. Video order is usually randomized for each user so we don't get biased results. Sometime, you may want to specify a video's location if that is a reference video. (e.g. a video with fastest page load such that user must give it highest rating, otherwise we reject the user. In this case we can fix it to the last position.)
 
 
 ## About data
