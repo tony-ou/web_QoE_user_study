@@ -56,7 +56,7 @@ These are source codes for setting up user study server AND analyze collected re
 
 2. Scripts `./scripts` help you filter, plot, analyze results. Be to sure run these scripts from inside `./scripts` folder, otherwise some paths would be incorrect. First, you should filter out bad results using `./scripts/filter_results.py`. (You can also manually filter results. Run `./scripts/create_csv.py` to put all results into a csv and open it with excel.) Bad results will be moved to `./rejected_results`. Second, you plot MOS + error bar, and obtain a summary log file with `./scripts/get_results.sh`. If results appear weird, you can either revisit filtering step (like increasing filtering threshold) or analyze the results further via `./scripts/Digging.ipynb`. 
 
-3. After you are done with analyzing results, you MUST arhive results with `scripts/move_results_out.sh` because next campaign's results is also stored in `./results`. You will mix them up if you don't archive this campign first. To revisit previous campaigns, run `./scripts/move_results_in.sh`.
+3. After you are done with analyzing results, you MUST archive results with `scripts/move_results_out.sh` because next campaign's results is also stored in `./results`. You will mix them up if you don't archive this campaign first. To revisit previous campaigns, run `./scripts/move_results_in.sh`.
 
 
 
