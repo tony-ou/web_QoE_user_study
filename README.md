@@ -39,18 +39,19 @@ These are source codes for setting up user study server AND analyze collected re
 ## Configure the server and host the survey page
 RUN the following step on **farewell** machine if you want to start an mturk campaign. You can run this locally for debugging purpose (you see the page on localhost:PORT_NUM). But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2
 
-1. Change video url to your github video repo. The format is like: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/. 
+1. Fork a copy of this repo to your github. 
+2. Change video url to your github video repo. The format is like: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/. 
    ```shell
    ./scripts/update_url.sh
    
    ```
 
-2. Update campaign information (campaign name and number of test videos)
+3. Update campaign information (campaign name and number of test videos)
    ```shell
    ./scripts/update_campaign.sh 
    ```
  
-3. Upload videos online (Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos). Below shows you how to upload to github.
+4. Upload videos online (Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos). Below shows you how to upload to github.
    ```shell
    mv path_to_videos ./campaign/
    git add campaign
@@ -58,7 +59,7 @@ RUN the following step on **farewell** machine if you want to start an mturk cam
    git push
    # Now you should see videos on YOUR_GITHUB_REPO_URL/CAMPAIGN_NAME/1.mp4
    ```
-4. Start the server:
+5. Start the server:
 
    ```shell
    node app.js [Optionally specify which port to run server; defaults to 3001 if not specified]
@@ -66,11 +67,11 @@ RUN the following step on **farewell** machine if you want to start an mturk cam
 
    If you run into any errors regarding modules not found, try removing the "node_modules" folder and go back to step 3.
 
-5. You can access the page on `farewell.cs.uchicago.edu:3001` from outside machines.
+6. You can access the page on `farewell.cs.uchicago.edu:3001` from outside machines.
 
    After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
    
-6. Other Tips:
+7. Other Tips:
    - Apart from Github, you can use Google Cloud Storage or Amazon S3 to store videos. Run script to change video url:
    ```shell
    ./scripts/update_url #use this to chagne video url to google storage/S3 url
