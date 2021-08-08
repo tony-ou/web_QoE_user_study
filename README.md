@@ -104,7 +104,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    ```shell
    ./scripts/move_results_in.sh 
    ```
-   - Filtering: check filter_results.py for implementation. If you want to modify logic, edit the `filter_singl_video` function.
+   - Filtering: check filter_results.py for implementation. If you want to modify logic, edit the `filter_single_video` function.
    ```shell
    #Filtering logic. This is for a sample filtering for separate_poke2.   
    def filter_single_video(video_times, rating_times, video_order, scores,attentions):
