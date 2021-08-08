@@ -164,7 +164,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    ![sep](https://github.com/tony-ou/web_QoE_user_study/blob/main/fig/separate_poke2_standardized_plot.png)
 
 ## Old Results
-I have also put past results in ./old_results (as well as their logs + figs). The test videos for sensei can be found: . Test videos for remaining can be found:
+I have also put past results in ./old_results (as well as their logs + figs). The test videos for sensei can be found: . Test videos for remaining can be found: https://drive.google.com/drive/u/0/folders/14OFi6iS2Eua4CPc4Dsi7KqotM12xkYwQ.
 
 
 Additional notes:
