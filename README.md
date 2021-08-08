@@ -36,7 +36,7 @@ These are source codes for setting up user study server AND analyze collected re
    ```
 
 
-## Configure the server and publish it
+## Configure the server and host the survey page
 RUN the following step on **farewell** machine if you want to start an mturk campaign. You can run this locally for debugging purpose (you see the page on localhost:PORT_NUM). But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2
 
 1. Change video url to your github video repo. The format is: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/. 
