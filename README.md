@@ -135,5 +135,5 @@ These are source codes for setting up user study server AND analyze collected re
    # Now you should see figs and logs successfully created like below:
    ```
    
-   
+   ![sep](https://github.com/tony-ou/web_QoE_user_study/blob/main/fig/separate_poke2_standardized_plot.png)
 
