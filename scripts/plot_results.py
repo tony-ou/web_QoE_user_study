@@ -20,12 +20,6 @@ z_name = inp + "_standardized_plot.png"
 log_name = inp + "_results.log"
 header = "LOG OF " + inp + " SURVEY RESULTS\n\n"
 
-# x axis configuration
-# how many videos are there in the campaign
-num_vids = len(os.listdir('./campaign/' + inp))
-print(num_vids)
-x = list(map(str,[i for i in range(num_vids)]))
-x_label = "video index"
 
 # Function to standardize scores
 def zscore(a, axis=0, ddof=0):
@@ -83,6 +77,13 @@ res_path = "./results"
 rej_path = "./rejected_results"
 res = rr.get_results(res_path, inp)
 rej_res = rr.get_results(rej_path, inp)
+
+# x axis configuration
+# how many videos are there in the campaign
+num_vids = len(res[0][0])
+x = list(map(str,[i + 1 for i in range(num_vids)]))
+x_label = "video index"
+
 
 # function to sort results into corresponding lists
 def sort_results(res, grade_list, order_list, vid_time_list, grade_time_list, user_reason_list, device_arr, age_arr, network_arr):
