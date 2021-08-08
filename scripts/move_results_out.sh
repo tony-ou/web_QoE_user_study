@@ -1,12 +1,12 @@
 #!/bin/bash
 # A script to move results out of the results directory
 
-ls videos
+ls campaign
 
 echo "Please enter the video set currently in results"
 read RES_NAME
 
-if ! [[ -d "videos/$RES_NAME" ]]; then
+if ! [[ -d "campaign/$RES_NAME" ]]; then
     echo "Video directory does not exist."
     exit 1
 fi
