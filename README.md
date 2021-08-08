@@ -35,7 +35,7 @@ These are source codes for setting up user study server AND analyze collected re
    npm install
    ```
 
-## Prepare for mturk campaign
+## Prepare videos and host the server page
 
 1. Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
@@ -118,8 +118,10 @@ RUN the following step on **farewell** machine. If you're running this on your l
    Second input: ENTER 3
 
    node app.js
+   # Now you should see the page on farewell.cs.uchicago.edu:PORT_NUM
    
-   # results have been archived, you just need to pull them out. Make sure your results is empty before running these.
+   
+   # Next for results analysis. results have been archived, you just need to pull them out. Make sure your results is empty before running these.
    
    ./scripts/move_results_in.sh
    ENTER separate_poke2
