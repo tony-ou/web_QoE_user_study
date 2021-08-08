@@ -6,27 +6,28 @@ import subprocess
 
 
 
-#Sample filter function
+#Filtering logic. This is for a sample filtering for separate_poke2.   
 def filter_single_video(video_times, rating_times, video_order, scores,attentions):
-    #First check if user watching alines with video length
-    #0.5 sec tolerance for black screen at the end
-    ret = 0
-    bad = 0
-    violate = 0
+
     a = 0
+    # check user finish the videos
     for k in video_times[:-1]:
         if k < 10000:
             a += 1
     if video_times[-1] < 7000:
         a +=1
+        
+    # check user rates reference video (3.mp4) highest
     if scores[-1] != max(scores):
         a+=1
+        
+    # check user responds 'yes' to attention check.
     if attentions[0] != 1:
         a += 1
-    # if scores[3] > scores[2] or scores[1] > scores[0]:
-    #    a+=1
-    if a >0:
-        return 1
+        
+    # reject if user fails any of the test
+    if a > 0:
+        return 1  #We reject this
 
     return 0 #We don't move this user to rejected folder
 
