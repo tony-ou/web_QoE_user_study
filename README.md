@@ -35,20 +35,6 @@ These are source codes for setting up user study server AND analyze collected re
    npm install
    ```
 
-4. Start the server on localhost:
-
-   ```shell
-   node app.js [Optionally specify which port to run server; defaults to 3001 if not specified]
-   ```
-
-   If you run into any errors regarding modules not found, try removing the "node_modules" folder and go back to step 3.
-
-5. Visit `localhost:3001` on your website, you should see the instruction page.
-
-   If you are running on the uchicago farewell cluster, visit `farewell.cs.uchicago.edu:3001`
-
-   After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
-
 ## Prepare for mturk campaign
 
 1. Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
@@ -63,20 +49,27 @@ These are source codes for setting up user study server AND analyze collected re
    ./scripts/update_campaign.sh 
    ```
  
-5. Upload videos online. Below shows you how to upload to github. You should be able to access videos via:https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
+4. Upload videos online. Below shows you how to upload to github. You should be able to access videos via:https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
    ```shell
    mv path_to_videos ./campaign/
    git add campaign
    git commit -m 'upload videos'
    git push
    ```
+5. Start the server:
 
-5. Start survey server:
    ```shell
-   node app.js  [Optionally specify which port to run server; defaults to 3001 if not specified]
+   node app.js [Optionally specify which port to run server; defaults to 3001 if not specified]
    ```
 
-6. Other Tips:
+   If you run into any errors regarding modules not found, try removing the "node_modules" folder and go back to step 3.
+
+6. You can access the page on `farewell.cs.uchicago.edu:3001` from outside machines.
+
+   After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
+   
+   - (If you're running this on your local machine, you should be able to see the page on localhost:3001. But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2)
+7. Other Tips:
    - Apart from Github, you can use Google Cloud Storage or Amazon S3 to store videos. Run script to change video url:
    ```shell
    ./scripts/update_url #use this to chagne video url to google storage/S3 url
