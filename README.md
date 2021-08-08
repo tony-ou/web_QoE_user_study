@@ -85,7 +85,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    python3 ./scripts/filter_results.py 
    ```
 
-2. Create plots and logs. Plots are stored in ./fig, logs are in ./logs. This creates a standardized and a non-standardized plot, but we mostly use standardized plot. 
+2. Create plots and logs. Plots are stored in ./fig, logs are in ./logs. This creates a standardized and a non-standardized plot, but we mostly only use standardized plot (exception check **old results** section). 
    ```shell
    ./scripts/get_results.sh 
    ```
@@ -163,3 +163,13 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    
    ![sep](https://github.com/tony-ou/web_QoE_user_study/blob/main/fig/separate_poke2_standardized_plot.png)
 
+## Old Results
+I have also put past results in ./old_results (as well as their logs + figs). The test videos for sensei can be found: . Test videos for remaining can be found:
+
+
+Additional notes:
+- There are two experiments I accidentally deleted the response files. One is separate_poke1, the other is Almanac_mturk. I document how I ran them here. And the test videos are in the second link above.
+   - Separate_poke1: Only figures are kept for this experiment. This experiment is conducted as a comparison experiment to separate_poke2, but they are ran in different mturk tasks. Like separate_poke2, separate_poke1 had about 40 responses in total and about 30 responses after filtering. In separate_poke1, result shows video 1 and video 2 have statistically similar user rating, while in separate_poke2, video 1 has higher rating than video 2.  
+   - Almanac_mturk: Log file and fig files are kept for this experiment, so you can see the accepted responses in the log. This experiment is explained in 2.2 of my master thesis.  
+  
+- The Sensei results have the same standardized/non standardized plot, because it has a training session which requires users to score best/worst grade video 5 and 1. (Can be seen in the rating of first two videos) This is the exception mentioned before
