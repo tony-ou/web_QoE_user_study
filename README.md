@@ -51,9 +51,9 @@ These are source codes for setting up user study server AND analyze collected re
 
 ## Prepare for mturk campaign
 
-1. First create test videos. (Check [this](https://github.com/tony-ou/web_QoE_video_creation/) repo). 
+1. Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
-2. We need to host videos online for users to watch them. A simple solution is to put it under `./campaign/{video folder name}` and so the final video_url will be like ` "https://raw.githubusercontent.com/tony-ou/web_QoE_user_study/main/campaign/" + vid_folder + "/1.mp4"`. But if there're too many vids, you may reach github repo's limit. 
+2. `mv path_to_videos ./campaign/`
 
 Other solutions are Google Cloud Storage or Amazon S3. But you will need to modify scripts in `/scripts/` and `controllers/app.js` because some of them reference `./campaign/` folder.
 
