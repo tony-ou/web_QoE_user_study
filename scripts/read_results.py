@@ -6,7 +6,7 @@ import os, os.path
 def get_results(path, vid):
     
     # Count the number of videos
-    vid_path = "../campaign/" + vid
+    vid_path = "./campaign/" + vid
     list_dir = os.listdir(vid_path)
     count = 0
     for file in list_dir:

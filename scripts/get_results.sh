@@ -1,17 +1,17 @@
 #!/bin/bash
 # A script to read results and return plots and a log
 
-ls ../campaign
+ls ./campaign
 
 echo "Please enter which campaign to plot its experiment results:"
 read RES_NAME
 
-if ! [[ -d "../campaign/$RES_NAME" ]]; then
+if ! [[ -d "./campaign/$RES_NAME" ]]; then
     echo "Campaign video directory does not exist."
     exit 1
 fi
 
-fig_folder=../fig/$RES_NAME
+fig_folder=./fig/$RES_NAME
 
 if ! [[ -d "$fig_folder" ]]; then
     mkdir fig_folder
@@ -24,7 +24,7 @@ LOG_1=${RES_NAME}_results.log
 
 FILE_CHECK1=$fig_folder/$PLOT_1
 FILE_CHECK2=$fig_folder/$PLOT_2
-FILE_CHECK3=../logs/$LOG_1
+FILE_CHECK3=./logs/$LOG_1
 
 FILE_1=$PLOT_1
 FILE_2=$PLOT_2
@@ -45,19 +45,19 @@ fi
 if [[ $EXISTS == 0 ]]; then
     python3 plot_results.py $RES_NAME
     if [[ -f "$FILE_1" ]]; then
-        mv $FILE_1 ../fig/
+        mv $FILE_1 ./fig/
         echo "$FILE_CHECK1 created successfully"
     else
         echo "Failed to create $PLOT_1"
     fi
     if [[ -f "$FILE_2" ]]; then
-        mv $FILE_2 ../fig/
+        mv $FILE_2 ./fig/
         echo "$FILE_CHECK2 created successfully"
     else
         echo "Failed to create $PLOT_2"
     fi
     if [[ -f "$FILE_3" ]]; then
-        mv $FILE_3 ../logs/
+        mv $FILE_3 ./logs/
         echo "$FILE_CHECK3 created successfully"
     else
         echo "Failed to create $LOG_1"

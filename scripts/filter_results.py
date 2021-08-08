@@ -5,9 +5,6 @@ import sys
 import subprocess
 
 
-c1 = 2
-c2 = 5
-c3 = 8
 
 #Sample filter function
 def filter_single_video(video_times, rating_times, video_order, scores,attentions):
@@ -30,19 +27,6 @@ def filter_single_video(video_times, rating_times, video_order, scores,attention
     #    a+=1
     if a >0:
         return 1
-    
-    global  c1,c2,c3
-    if c3 != 0 and scores[0] == scores[1]:
-        c3 -= 1
-        return 1
-    
-    if c1 != 0 and scores[0] < scores[1]:
-        c1 -= 1
-        return 1
-    
-    if c2 != 0 and scores[0] > scores[1]:
-        c2 -= 1
-        return 1
 
     return 0 #We don't move this user to rejected folder
 
@@ -59,7 +43,7 @@ def parse_results(lines):
 
 
 #input from the cmd line script
-result_path = '../results/'
+result_path = './results/'
 #white_list = '../good/'
 
 
@@ -89,10 +73,10 @@ for result_file in result_files:
         if move == 1:
             reject +=1
             print(result_file)
-            os.system("mv {} ../rejected_results/".format(result))
+            os.system("mv {} ./rejected_results/".format(result))
         elif move == 2:
             pending +=1
-            os.system("mv {} ../pending/".format(result))
+            os.system("mv {} ./pending/".format(result))
         else:
             approved +=1
 

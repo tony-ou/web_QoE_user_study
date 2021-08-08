@@ -22,7 +22,7 @@ header = "LOG OF " + inp + " SURVEY RESULTS\n\n"
 
 # x axis configuration
 # how many videos are there in the campaign
-num_vids = len(os.listdir('../campaign/' + inp))
+num_vids = len(os.listdir('./campaign/' + inp))
 print(num_vids)
 x = list(map(str,[i for i in range(num_vids)]))
 x_label = "video index"
@@ -79,8 +79,8 @@ def count_network(net, arr):
         arr[3] += 1
 
 # Reading the results
-res_path = "../results"
-rej_path = "../rejected_results"
+res_path = "./results"
+rej_path = "./rejected_results"
 res = rr.get_results(res_path, inp)
 rej_res = rr.get_results(rej_path, inp)
 
