@@ -80,7 +80,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
 
 
 ## Analyze data
-1. Filter bad results (Check other Tips for more instrucitons on how filtering works)
+1. Filter bad results (Check Point 4 for more instrucitons on how filtering works)
    ```shell
    python3 ./scripts/filter_results.py 
    ```
@@ -103,6 +103,34 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    - To revisit previous campaigns:
    ```shell
    ./scripts/move_results_in.sh 
+   ```
+   - Filtering: check filter_results.py for implementation. If you want to modify logic, edit the `filter_singl_video` function.
+   ```shell
+   #Filtering logic. This is for a sample filtering for separate_poke2.   
+   def filter_single_video(video_times, rating_times, video_order, scores,attentions):
+
+       a = 0
+       # check user finish the videos
+       for k in video_times[:-1]:
+           if k < 10000:
+               a += 1
+       if video_times[-1] < 7000:
+           a +=1
+
+       # check user rates reference video (3.mp4) highest
+       if scores[-1] != max(scores):
+           a+=1
+
+       # check user responds 'yes' to attention check.
+       if attentions[0] != 1:
+           a += 1
+
+       # reject if user fails any of the test
+       if a > 0:
+           return 1  #We reject this
+
+       return 0 #We don't move this user to rejected folder
+
    ```
 
 
