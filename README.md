@@ -80,7 +80,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
 
 
 ## Analyze data
-1. Filter bad results
+1. Filter bad results (Check other Tips for more instrucitons on how filtering works)
    ```shell
    python3 ./scripts/filter_results.py 
    ```
