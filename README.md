@@ -132,7 +132,7 @@ These are source codes for setting up user study server AND analyze collected re
    python3 ./scripts/filter_results.py
    ./scripts/get_results.sh
    
-   # Now you should see figs and logs successfully created like below:
+   # Now you should see standardized plot created in ./fig like below:
    ```
    
    ![sep](https://github.com/tony-ou/web_QoE_user_study/blob/main/fig/separate_poke2_standardized_plot.png)
