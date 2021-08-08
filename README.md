@@ -39,7 +39,7 @@ These are source codes for setting up user study server AND analyze collected re
 Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
 ## Configure the server and publish it
-RUN the following step on **farewell** machine. If you're running this on your local machine, you can still see the page on localhost:3001. But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2
+RUN the following step on **farewell** machine if you want to start an mturk campaign. You can run this locally for debugging purpose (you see the page on localhost:PORT_NUM). But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2
 
 1. Change video url to your github video repo 
    ```shell
