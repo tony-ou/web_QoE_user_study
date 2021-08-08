@@ -128,7 +128,7 @@ RUN the following step on **farewell** machine if you want to start an mturk cam
    python3 ./scripts/filter_results.py
    ./scripts/get_results.sh
    
-   # Now you should see standardized plot created in ./fig like below:
+   # Now you should see standardized plot named ./fig/separate_poke2_standardized_plot.png like below:
    ```
    
    ![sep](https://github.com/tony-ou/web_QoE_user_study/blob/main/fig/separate_poke2_standardized_plot.png)
