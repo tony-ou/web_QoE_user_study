@@ -53,18 +53,19 @@ These are source codes for setting up user study server AND analyze collected re
 
 1. Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
-2. Upload videos online. Below shows you how to upload to github. 
+2. Upload videos online. Below shows you how to upload to github. You should be able to access videos via: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
 ```shell
 mv path_to_videos ./campaign/
 git add campaign
 git commit -m 'upload videos'
 git push
+./scripts/update_url  #use this to change video url to your github video repo 
 ```
 
-- You should be able to access videos via: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
+- 
 - Apart from Github, you can use Google Cloud Storage or Amazon S3 to store videos. Run script to change video url:
 ```shell
-./scripts/update_url
+./scripts/update_url #use this to chagne video url to google storage/S3 url
 ```
 
 
