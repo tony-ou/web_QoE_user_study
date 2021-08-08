@@ -53,34 +53,56 @@ These are source codes for setting up user study server AND analyze collected re
 
 1. Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
-2. Upload videos online. Below shows you how to upload to github. You should be able to access videos via: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
+2. Change video url to your github video repo 
+```shell
+./scripts/update_url 
+```
+4. Upload videos online. Below shows you how to upload to github. You should be able to access videos via: https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
 ```shell
 mv path_to_videos ./campaign/
 git add campaign
 git commit -m 'upload videos'
 git push
-./scripts/update_url  #use this to change video url to your github video repo 
 ```
 
-- 
+3. Start survey server:
+```shell
+node app.js  [Optionally specify which port to run server; defaults to 3001 if not specified]
+```
+
+4. Other Tips:
 - Apart from Github, you can use Google Cloud Storage or Amazon S3 to store videos. Run script to change video url:
 ```shell
 ./scripts/update_url #use this to chagne video url to google storage/S3 url
 ```
 
 
+## Analyze data
+1. Filter bad results
+```shell
+python3 ./scripts/filter_results.py 
+```
 
-3. Update `vid_folder` variable and `video_order` variable in `start.js`. Video order is usually randomized for each user so we don't get biased results. Sometime, you may want to specify a video's location if that is a reference video. (e.g. a video with fastest page load such that user must give it highest rating, otherwise we reject the user. In this case we can fix it to the last position.)
+2.Create plots and logs (plots are stored in ./fig, logs are in ./logs) 
+```shell
+./scripts/get_results.sh 
 
+3. Archive results before you start new experiments. Archived results are in ./old_results.
+```shell
+./scripts/move_results_out.sh 
+```
 
-## About data
+4. Other Tips:
 
-1. The raw data collected from the website are .txt files under `./results`, containing info about grades, order of videos, watching and decision time of each grade, and the content of the survey, etc (check `./controllers/start.js` `post_end` function to see what fields are written). 
+- The raw data collected from the website are .txt files under `./results` (It contains grades, order of videos, watching and decision time of each grade, and the content of the survey, etc). Check `./controllers/start.js` `post_end` function to see what fields are written. 
 
-2. Scripts `./scripts` help you filter, plot, analyze results. Be to sure run these scripts from inside `./scripts` folder, otherwise some paths would be incorrect. First, you should filter out bad results using `./scripts/filter_results.py`. (You can also manually filter results. Run `./scripts/create_csv.py` to put all results into a csv and open it with excel.) Bad results will be moved to `./rejected_results`. Second, you plot MOS + error bar, and obtain a summary log file with `./scripts/get_results.sh`. If results appear weird, you can either revisit filtering step (like increasing filtering threshold) or analyze the results further via `./scripts/Digging.ipynb`. 
+- You **MUST** archive results with `scripts/move_results_out.sh` because next campaign's results is also stored in `./results`. You will mix them up if you don't archive this campaign first. 
 
-3. After you are done with analyzing results, you **MUST** archive results with `scripts/move_results_out.sh` because next campaign's results is also stored in `./results`. You will mix them up if you don't archive this campaign first. To revisit previous campaigns, run `./scripts/move_results_in.sh`. The results are archived to `./old_results`
-
+- To revisit previous campaigns:
+```shell
+./scripts/move_results_in.sh 
+```
+## Demo 
 
 
 
