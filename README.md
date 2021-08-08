@@ -35,8 +35,6 @@ These are source codes for setting up user study server AND analyze collected re
    npm install
    ```
 
-## Create test videos
-Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
 ## Configure the server and publish it
 RUN the following step on **farewell** machine if you want to start an mturk campaign. You can run this locally for debugging purpose (you see the page on localhost:PORT_NUM). But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2
@@ -51,7 +49,7 @@ RUN the following step on **farewell** machine if you want to start an mturk cam
    ./scripts/update_campaign.sh 
    ```
  
-3. Upload videos online. Below shows you how to upload to github. You should be able to access videos via:https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4
+3. Upload videos online (Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos). Below shows you how to upload to github. You should be able to access videos via:https://raw.githubusercontent.com/YOUR_GITHUB_ID/web_QoE_user_study/main/campaign/video_folder_name/video_number.mp4 
    ```shell
    mv path_to_videos ./campaign/
    git add campaign
