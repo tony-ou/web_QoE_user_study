@@ -39,6 +39,9 @@ These are source codes for setting up user study server AND analyze collected re
 
 1. Follow https://github.com/tony-ou/web_QoE_video_creation/ to create test videos. 
 
+
+RUN the following step on **farewell** machine. If you're running this on your local machine, you can still see the page on localhost:3001. But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC
+
 2. Change video url to your github video repo 
    ```shell
    ./scripts/update_url.sh
@@ -68,7 +71,6 @@ These are source codes for setting up user study server AND analyze collected re
 
    After finishing the test, the results will be stored in `./results/`, the file name will be the MTurk ID.
    
-   - (If you're running this on your local machine, you should be able to see the page on localhost:3001. But in order for mturkers to see your page, you must host the server online. You can use farewell or other tools like AWS EC2)
 7. Other Tips:
    - Apart from Github, you can use Google Cloud Storage or Amazon S3 to store videos. Run script to change video url:
    ```shell
