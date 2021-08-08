@@ -85,7 +85,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    python3 ./scripts/filter_results.py 
    ```
 
-2. Create plots and logs (plots are stored in ./fig, logs are in ./logs) 
+2. Create plots and logs. Plots are stored in ./fig, logs are in ./logs. This creates a standardized and a non-standardized plot, but we mostly use standardized plot. 
    ```shell
    ./scripts/get_results.sh 
    ```
