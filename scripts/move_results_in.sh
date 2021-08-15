@@ -1,12 +1,12 @@
 #!/bin/bash
 # A script to move results out of the results directory
 
-ls webqoe_old_results
+ls webqoe_previous_results
 
 echo "Please enter which old results to move into results"
 read RES_NAME
 
-old_result=webqoe_old_results/$RES_NAME
+old_result=webqoe_previous_results/$RES_NAME
 
 if ! [[ -d "$old_result" ]]; then
     echo "$old_result does not exist"
