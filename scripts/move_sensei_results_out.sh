@@ -1,7 +1,7 @@
 #!/bin/bash
 # A script to move results out of the results directory
 
-ls webqoe_old_results
+ls sensei_results
 
 echo "Please enter the video set currently in results"
 read RES_NAME
@@ -11,7 +11,7 @@ if ! [[ -d "campaign/$RES_NAME" ]]; then
     exit 1
 fi
 
-old_result=webqoe_old_results/$RES_NAME
+old_result=sensei_results/$RES_NAME
 
 if ! [[ -d "$old_result" ]]; then
     mkdir $old_result
