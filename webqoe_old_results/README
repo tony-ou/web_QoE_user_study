@@ -1,9 +1,5 @@
 User response format (each line in the response file): if you want to change result format, check `post_end` in `controllers/start.js`
 
-                 + user.network + '\n' + user.reason +'\n'+ user.browser + '\n' + user.instruction + '\n'+ user.training + '\n' +
-                 write_play + '\n' + write_pause + '\n' + write_seek + '\n' + write_reference + '\n' + write_return + '\n'
-                 + write_test + '\n' + String(write_attention_check) + '\n'
-                 
 - video score: original video order (i.e. 1.mp4, 2.mp4,...)
 - video order: actual order of video user saw. 
 - mturkID
