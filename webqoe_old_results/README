@@ -1,1 +1,29 @@
+User response format (each line in the response file): if you want to change result format, check `post_end` in `controllers/start.js`
+
+                 + user.network + '\n' + user.reason +'\n'+ user.browser + '\n' + user.instruction + '\n'+ user.training + '\n' +
+                 write_play + '\n' + write_pause + '\n' + write_seek + '\n' + write_reference + '\n' + write_return + '\n'
+                 + write_test + '\n' + String(write_attention_check) + '\n'
+                 
+- video score: original video order (i.e. 1.mp4, 2.mp4,...)
+- video order: actual order of video user saw. 
+- mturkID
+- video time: time spent on video page (in original video order)
+- active video time: active time spent on video page (in original video order)
+- grade time: time spent on grading page  (in original video order)
+- active grade time: active  time spent on grading page  (in original video order)
+- device
+- age (deprecated, not used anymore: so it shows undefined)
+- network type (deprecated, not used anymore: so it shows undefined)
+- user response to: "What factor of webpage loads matter the most to you? (mentioning some details of the loading process will be helpful! Like what makes you give different ratings for different videos you saw.). Also, let us know if the experiment guideline is clear? Are you confused about grading process?"
+- broweser typee
+- active time on instruction page
+- deprecated
+- deprecated
+- deprecated
+- deprecated
+- deprecated
+- deprecated
+- deprecated
+- answer to control question in `reason.html`
+- timestamp of user starting the survey
 
