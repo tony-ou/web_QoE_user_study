@@ -1,1 +1,13 @@
-
+User response format (each line in the response file)
+- video score: original video order (i.e. 1.mp4, 2.mp4,...)
+- video order: actual order of video user saw. 
+- mturkID
+- device 
+- age  
+- network type 
+- user response to: "How does the quality damage at different times affect your watching experience differently? For example, you can explain in general language why quality damage at different times affect your experience differently (mentioning some details of the video will be helpful!). Also, let us know if the experiment guideline is clear? Are you confused about the grading or the attention check?"
+- attention check:
+  - 2 means no stall no blur
+  - 3 means blur no stall
+  - 4 means stall no blur
+  - 5 means stall and blur
