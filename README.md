@@ -5,6 +5,12 @@
 
 These are source codes for setting up user study server AND analyze collected results .
 
+Table of contents:
+- Setup
+- Configure the server and host the survey page
+- Analyze data + Previous webqoe results
+- Demo of running mturk campaign + data analysis for "separate_poke2" campaign
+- Sensei data
 ## Setup
 
 1. Install `node.js` from its [official website](https://nodejs.org/en/download/)
