@@ -8,9 +8,11 @@ These are source codes for setting up user study server AND analyze collected re
 Table of contents:
 - Setup
 - Configure the server and host the survey page
-- Analyze data + Previous webqoe results
+- How to analyze obtained data 
 - Demo of running mturk campaign + data analysis for "separate_poke2" campaign
+- Previous webqoe experiments results
 - Sensei data
+
 ## Setup
 
 1. Install `node.js` from its [official website](https://nodejs.org/en/download/)
@@ -85,7 +87,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    ```
 
 
-## Analyze data
+## How to analyze obtained data
 1. Filter bad results (Check Point 4 for more instrucitons on how filtering works)
    ```shell
    python3 ./scripts/filter_results.py 
@@ -139,6 +141,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
 
    ```
 
+ 
 
 ## Demo of running mturk campaign + data analysis for "separate_poke2" campaign
 
@@ -169,13 +172,38 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    
    ![sep](https://github.com/tony-ou/web_QoE_user_study/blob/main/fig/separate_poke2_standardized_plot.png)
 
-## Old Results
-I have also put past results in ./old_results (as well as their logs + figs). The test videos for sensei can be found:https://drive.google.com/drive/folders/1mmiawSmafU573t7MwfNBeTKdiNhCa4kO?usp=sharing . Test videos for remaining can be found: https://drive.google.com/drive/u/0/folders/14OFi6iS2Eua4CPc4Dsi7KqotM12xkYwQ.
+## Previous webqoe experiments results
+
+The results of previous web experiments are stored in in `./webqoe_previous_results`. Videos for these are experiments are in: https://drive.google.com/drive/u/0/folders/14OFi6iS2Eua4CPc4Dsi7KqotM12xkYwQ.
 
 
-Additional notes:
-- There are two experiments I accidentally deleted the response files. One is separate_poke1, the other is Almanac_mturk. I document how I ran them here. And the test videos are in the second link above.
-   - Separate_poke1: Only figures are kept for this experiment. This experiment is conducted as a comparison experiment to separate_poke2, but they are ran in different mturk tasks. Like separate_poke2, separate_poke1 had about 40 responses in total and about 30 responses after filtering. In separate_poke1, result shows video 1 and video 2 have statistically similar user rating, while in separate_poke2, video 1 has higher rating than video 2.  
-   - Almanac_mturk: Log file and fig files are kept for this experiment, so you can see the accepted responses in the log. This experiment is explained in 2.2 of my master thesis.  
+To load response files into results folder, run:
+```
+./scripts/move_results_in.sh
+```
+
+To put response files back to `./webqoe_previous_results`:
+```
+./scripts/move_results_out.sh
+```
+
+------
+There are two experiments `separate_poke1` and `Almanac_mturk`, that  I accidentally deleted their response files. But you can still find their plots in `./fig/`:   `./fig/separate_poke1_standardized_plot.png`,  `./fig/Almanac_mturk_standardized_plot.png`. And `Almanac_mturk` log file is also available `Almanac_mturk_results.log`. If you want to rerun these campaigns, the test videos are in the link above.
+
+More details on these two experiments:
+   - Separate_poke1: This experiment was run in paralell with `separate_poke2` (whose response files are still available. I collected ~40 responses in total for each experiment, and 30 responses remain after filtering. The hypothesis of these two experiments is to show the perception of delay depends on loading order of other objects. In both `separate_poke1`  and `separate_poke2`, video 2 has one object delayed compared with video 1. But in `separate_poke2`, we wish loading of other objects make this delay more obvious than in `separate_poke2`. The collected results confirmed this intuition: in `separate_poke1`, video 1 and video 2 have statistically similar user rating , while in separate_poke2, video 1 has higher rating than video 2.  
+   - Almanac_mturk: The hypohtesis of this experiment is explained in 2.2 of my master thesis. 
   
-- The Sensei results have the same standardized/non standardized plot, because it has a training session which requires users to score best/worst grade video 5 and 1. (Can be seen in the rating of first two videos) This is the exception mentioned before
+## Sensei data
+Sensei results are in `./sensei_results`. The test videos for sensei can be found:https://drive.google.com/drive/folders/1mmiawSmafU573t7MwfNBeTKdiNhCa4kO?usp=sharing . 
+
+To load response files into results folder, run:
+```
+./scripts/move_sensei_results_in.sh
+```
+
+To put response files back to `./sensei_results`:
+```
+./scripts/move_sensei_results_out.sh
+```
+
