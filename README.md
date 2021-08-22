@@ -8,7 +8,7 @@ These are source codes for setting up user study server AND analyze collected re
 Table of contents:
 - Set up the environment
 - Configure the server and host the survey page
-- How to analyze obtained data 
+- Analyze collected responses
 - Demo of running mturk campaign + data analysis for "separate_poke2" campaign
 - Previous webqoe experiments results
 - Sensei data
@@ -87,7 +87,7 @@ RUN the following step on **farewell** machine if you want to start a mturk camp
    ```
 
 
-## How to analyze obtained data
+## Analyze collected responses
 1. Filter bad results (Check Point 4 for more instrucitons on how filtering works)
    ```shell
    python3 ./scripts/filter_results.py 
